@@ -7,6 +7,7 @@ class Model:
         self.tour_map = {} # Mappa ID tour -> oggetti Tour
         self.attrazioni_map = {} # Mappa ID attrazione -> oggetti Attrazione
 
+
         self._pacchetto_ottimo = []
         self._valore_ottimo: int = -1
         self._costo = 0
@@ -38,6 +39,8 @@ class Model:
             --> Ogni Tour ha un set di Attrazione.
             --> Ogni Attrazione ha un set di Tour.
         """
+
+
 
         # TODO
 
